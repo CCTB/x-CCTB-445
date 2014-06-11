@@ -100,6 +100,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Reports\ProductSalesReport.rdlc" />
     <EmbeddedResource Include="ViewRegions.resx">
       <DependentUpon>ViewRegions.cs</DependentUpon>
     </EmbeddedResource>
