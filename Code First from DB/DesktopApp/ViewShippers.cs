@@ -136,7 +136,11 @@ namespace DesktopApp
 
         private void ClearForm_Click(object sender, EventArgs e)
         {
+            ShipperID.Text = "";
+            CompanyName.Text = "";
+            Phone.Text = "";
 
+            cboShippers.SelectedIndex = 0;
         }
 
         private void ViewShippers_Load(object sender, EventArgs e)
