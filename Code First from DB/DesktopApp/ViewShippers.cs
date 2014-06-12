@@ -130,6 +130,7 @@ namespace DesktopApp
             catch (Exception ex)
             {
                 // TODO: Add logging
+                Program.LogMessage(ex.Message);
                 MessageBox.Show(ex.Message);
             }
         }
