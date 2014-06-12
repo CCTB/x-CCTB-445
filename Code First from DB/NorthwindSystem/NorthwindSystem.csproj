@@ -55,6 +55,7 @@
     <Compile Include="Entities\Category.cs" />
     <Compile Include="Entities\Customer.cs" />
     <Compile Include="Entities\CustomerDemographic.cs" />
+    <Compile Include="Entities\DTO\ShipperDTO.cs" />
     <Compile Include="Entities\Employee.cs" />
     <Compile Include="DAL\NW.cs" />
     <Compile Include="Entities\Order.cs" />

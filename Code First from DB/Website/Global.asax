@@ -11,6 +11,8 @@
         BundleConfig.RegisterBundles(BundleTable.Bundles);
         AuthConfig.RegisterOpenAuth();
         RouteConfig.RegisterRoutes(RouteTable.Routes);
+        //System.Web.Http.GlobalConfiguration.Configuration.Formatters.JsonFormatter.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
+        CustomRouting.Register(System.Web.Http.GlobalConfiguration.Configuration);
     }
     
     void Application_End(object sender, EventArgs e)
