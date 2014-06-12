@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DesktopApp.Reports;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -59,7 +60,10 @@ namespace DesktopApp
 
         private void productSalesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            ProductSalesForm myForm = new ProductSalesForm();
+            myForm.MdiParent = this;
+            myForm.WindowState = FormWindowState.Maximized;
+            myForm.Show();
         }
 
         private void errorLogsToolStripMenuItem_Click(object sender, EventArgs e)

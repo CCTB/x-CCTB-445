@@ -39,9 +39,12 @@
     <Reference Include="EntityFramework.SqlServer">
       <HintPath>..\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -66,6 +69,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reports\ProductSalesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\ProductSalesForm.Designer.cs">
+      <DependentUpon>ProductSalesForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="ViewCategories.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -100,6 +109,10 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Reports\ProductSalesForm.resx">
+      <DependentUpon>ProductSalesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\ProductSalesReport.rdlc" />
     <EmbeddedResource Include="ViewRegions.resx">
       <DependentUpon>ViewRegions.cs</DependentUpon>
     </EmbeddedResource>
@@ -107,6 +120,7 @@
       <DependentUpon>ViewShippers.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
+    <None Include="Properties\DataSources\NorthWindSystem.Entities.POCOS.ProductSaleSummary.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
