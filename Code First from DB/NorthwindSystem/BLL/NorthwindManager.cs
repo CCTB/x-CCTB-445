@@ -12,7 +12,7 @@ namespace NorthwindSystem.BLL
 {
     // This is the primary public access into the NorthwindSystem's data
     [DataObject]
-    public class NorthwindManager
+    public partial class NorthwindManager
     {
         #region Shippers
         public IList<Shipper> ListShippers()
