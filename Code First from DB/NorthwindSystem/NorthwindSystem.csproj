@@ -48,6 +48,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLL\NorthwindManager-RegionTerritory.cs" />
+    <Compile Include="BLL\NorthwindManager-Reports.cs" />
     <Compile Include="BLL\NorthwindManager.cs" />
     <Compile Include="Class1.cs" />
     <Compile Include="Entities\Category.cs" />
