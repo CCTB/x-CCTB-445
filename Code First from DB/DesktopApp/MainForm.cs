@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DesktopApp.Reports;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -54,7 +55,10 @@ namespace DesktopApp
 
         private void customerOrdersToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            ReportForm theForm = new ReportForm();
+            theForm.MdiParent = this; // Tell the form that I (MainForm) am the parent
+            theForm.WindowState = FormWindowState.Maximized;
+            theForm.Show(); // we do NOT pause here as we show the form...
         }
 
         private void productSalesToolStripMenuItem_Click(object sender, EventArgs e)

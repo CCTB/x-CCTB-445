@@ -35,7 +35,8 @@ namespace NorthwindSystem.BLL
                         select new CustomerOrderSummary()
                         {
                             OrderDate = purchase.OrderDate.Value,
-                            Freight = purchase.Freight.GetValueOrDefault(),
+                            // see http://blog.dreamlabsolutions.com/post/2008/11/17/LINQ-Method-cannot-be-translated-into-a-store-expression.aspx
+                            Freight = purchase.Freight ?? 0m, // purchase.Freight.GetValueOrDefault(),
                             Subtotal = purchase.Order_Details
                                                .Sum(x =>
                                                     (decimal?)(x.UnitPrice * x.Quantity)
