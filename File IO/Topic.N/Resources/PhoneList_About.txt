@@ -1,0 +1,19 @@
+PhoneList_22817
+    # Records: 22,817
+    Data Sample:
+        348-1000,Toll,Sofia
+        348-1001,Arrigo,Alexis
+
+
+PhoneList_777475
+    #Records: 777,475
+    Data Sample:
+        348-1000,Burkard,Heather
+        348-1001,Algere,Jennifer
+
+
+PhoneList_VeryLarge
+    # Records: 7,795,085
+    Data Sample:
+        "348-1000","Keefer, Frannie"
+        "348-1001","Delasweles, Morgan"

@@ -1,0 +1,10 @@
+OOP
+---
+- [Monday] Create exercises for packages A, B and C
+    A - AnsweringMachine, OuterSpace
+    B - AnsweringMachine, CanadianAddress, Course, ExamResult, LabResult
+    C - CanadianAddress, Course, ExamResult, LabResult
+- [Monday/Tuesday] Create unit tests for exercises in packages A through H
+- [Tuesday] Create exercises for packages E and F
+- [Wed-Fri] Create exercises for packages G, H and I
+- 

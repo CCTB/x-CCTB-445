@@ -1,0 +1,10 @@
+Building Websites with VB.NET and Dotnetnuke 3.0,Daniel N. Egan,2005,Packt Publishing,Paperback,,1904811272,312,$47.28
+Hacking the Code: Auditor's Guide to Writing Secure Code for the Web,Mark Burnett,2004,Syngress,Paperback,005.8,1932266658,472,$59.06
+Head First Design Patterns,Eric Freeman;Elisabeth Freeman;Bert Bates;Kathy Sierra,2004,O'Reilly Media,Paperback,005.1,0596007124,676,$65.95
+Microsoft SharePoint Server 2007 Bible,Avitiva Corp;Wayne Tynes;Simeon Cathey;Wynne Leon,2007,Wiley,Paperback,004.682,047000861X,792,$48.99
+Professional DotNetNuke 4: Open Source Web Application Framework for ASP.NET 2.0,Shaun Walker;Joe Brinkman;Bruce Hopkins;Scott McCulloch;Chris Paterra;Patrick J. Santry;Scott Willhite;Dan Caron,2006,Wrox,Paperback,005.2/76,0471788163,552,$43.99
+Professional Web Parts and Custom Controls with ASP.NET 2.0,Peter Vogel,2005,Wrox,Paperback,005.2/76,076457860X,480,$43.99
+Programming Atlas,Christian Wenz,2006,O'Reilly Media,Paperback,005.13/3,0596526725,404,$45.99
+QuickBooks 2006,Bonnie Biafore,2006,Pogue Press,Paperback,657.9042,0596101848,623,$41.99
+The Data Model Resource Book: A Library of Logical and Data Warehouse Models,Len Silverston;Kent Graziano;William H. Inmon,1997,John Wiley & Sons,Paperback,658.4/038/0285574,0471153648,355,$74.15
+UPTIME: Strategies for Excellence in Maintenance Management,John Dixon Campbell,1995,Productivity Press,Hardcover,658.2/02,1563270536,204,$41.38
